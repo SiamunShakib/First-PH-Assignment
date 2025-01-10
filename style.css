@@ -1,5 +1,17 @@
 /* google fonts link start */
 
+/* nav sectiio */
+.nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 24px 0px;
+}
+.nav h1{
+    font-size: 32px;
+    padding: ;
+}
+
+
 
 /* hero section style start */
 *{
@@ -10,7 +22,7 @@
 body{
     background-color: #F5F5F5;
 }
-main{
+main,header{
     max-width: 1024px;
     align-items: center;
     margin: auto;
@@ -26,9 +38,11 @@ main{
     background-color: #006A50;
     color: white;
     border: none;
+    transition: .5s;
 }
 .primery-btn:hover{
     background-color: #01b789;
+    transform: scale(1.05);
 }
 
 .primery-btn a{
@@ -84,6 +98,10 @@ main{
     border-radius: 24px;
     box-shadow: 0px 2px 2px rgb(193, 193, 193);
     margin-top: 24px;
+    transition: .5s;
+}
+.piller-item div:hover{
+    transform: scaleY(1.05);
 }
 .piller-item div img{
     width: 64px;
@@ -110,7 +128,7 @@ main{
 
 
 
-/* cision of future start */
+/* vision of future start */
 .vision-of-future-text{
     margin-top: 80px;
 }
@@ -129,6 +147,7 @@ main{
     border-radius: 16px;
     padding: 24px;
     width: 33.33%;
+    transition: .5s;
 }
 .vision-of-future-item div img{
     width: 64px;
@@ -137,6 +156,9 @@ main{
     font-size: 20px;
     font-weight: bold;
     margin: 24px 0px;
+}
+.vision-of-future-item div:hover{
+    transform: scalex(1.05);
 }
 
 .vision-of-future-item >:nth-child(1){
@@ -151,7 +173,15 @@ main{
     font-size: 16px;
     font-weight: 500;
     margin-top: 24px;
+    transition: .5s;
 }
+.vision-of-future-item >:nth-child(1) button:hover{
+    background-color: #1a6dfc;
+    transform: scale(1.05);
+}
+
+
+
 .vision-of-future-item >:nth-child(2){
     background-color: #C6E4D6;
 }
@@ -164,7 +194,13 @@ main{
     font-size: 16px;
     font-weight: 500;
     margin-top: 24px;
+    transition: .5s;
+}.vision-of-future-item >:nth-child(2) button:hover{
+    background-color: #036d3d;
+    transform: scale(1.05);
 }
+
+
 .vision-of-future-item >:nth-child(3){
     background-color: #F7EBCF;
 }
@@ -177,9 +213,17 @@ main{
     font-size: 16px;
     font-weight: 500;
     margin-top: 24px;
+    transition: .5s;
+}
+.vision-of-future-item >:nth-child(3) button:hover{
+    background-color: #ae7b03;
+    transform: scale(1.05);
 }
 
-/* cision of future end */
+
+
+
+/* vision of future end */
 
 
 
@@ -212,6 +256,60 @@ main{
 
 
 /* comment section style end */
+
+
+
+
+
+/* openion serction start */
+.openion{
+    margin-top: 80px;
+}
+.openion div{
+    padding: 24px;
+    border:none;
+    background-color: white;
+    border-radius: 16px;
+    box-shadow: 0px 2px 2px rgb(193, 193, 193);
+    margin-top: 24px;
+
+
+}
+.openion table{
+    background-color: white;
+    padding: 24px;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+
+.openion table tr td{
+    border: 1px solid rgb(167, 166, 166);
+    padding: 5px 10px;
+    padding: 24px;
+    font-weight: bold;
+}
+
+.openion table tr :nth-child(2){
+    text-align: center;
+}
+
+.th{
+    background-color: #C6E4D6;
+}
+
+.openion-btn{
+    padding: 10px 14px ;
+    border-radius: 4px;
+    background-color: #C6E4D6;
+    border:1.5px solid black;
+    
+}
+.openion-btn img{
+    width: 15px;
+}
+
+/* openion section end */
 
 
 
@@ -288,6 +386,9 @@ main{
     justify-content: space-around;
     margin: 0px 20px;
 }
+.donation-quantity :nth-child(3){
+    background-color: #97ffe5;
+}
 
 .donation-quantity button{
     padding: 30px;
@@ -297,6 +398,10 @@ main{
     background-color: white;
     border: none;
     box-shadow: 0px 2px 3px rgb(152, 152, 152);
+}
+.donation-quantity button:hover{
+    background-color: #01b789;
+    transform: scale(1.05);
 }
 .donation-quantity button a{
     text-decoration: none;
@@ -359,3 +464,38 @@ main{
     color: white;
 }
 /* subscribe style end */
+
+
+
+
+
+
+
+
+/* footer style */
+.footer{
+    width: 100%;
+    background-color: white;
+    padding: 50px 100px;
+    text-align: center;
+}
+.footer h1{
+    font-size: 40px;
+    font-weight: bold;
+    color: #0E0E0E;
+    margin-bottom: 30px;
+}
+
+
+hr{
+    color: #000000;
+    opacity: 80%;
+}
+
+.footer ul{
+    margin-top: 30px;
+}
+.footer ul li{
+    display: inline;
+    margin: 20px;
+}
