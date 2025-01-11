@@ -250,7 +250,7 @@ main,header{
 
 /* comment section style start */
 .vision-of-future-comments{
-    background-image: url(/assets/quote-bg.png);
+    background-image: url(assets/quote-bg.png);
     background-repeat: no-repeat;
     margin-top: 32px;
     padding: 48px 24px;
