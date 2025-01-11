@@ -1,6 +1,6 @@
 /* google fonts link start */
 
-/* nav sectiio */
+/* nav section */
 .nav{
     display: flex;
     justify-content: space-between;
@@ -8,7 +8,25 @@
 }
 .nav h1{
     font-size: 32px;
-    padding: ;
+}
+.nav button{
+    background-color: white;
+    border: 2px solid #006A50;
+    padding: 12px 34px;
+    border-radius: 8px;
+    transition: .5s;
+    font-weight: bold;
+}
+.nav button a{
+    color: #006A50;
+    text-decoration: none;
+}
+.nav button:hover{
+    transform: scale(1.05);
+}
+button a{
+    text-decoration: none;
+    color: white;
 }
 
 
@@ -18,6 +36,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: sans-serif;
 }
 body{
     background-color: #F5F5F5;
@@ -39,6 +58,7 @@ main,header{
     color: white;
     border: none;
     transition: .5s;
+    font-weight: bold;
 }
 .primery-btn:hover{
     background-color: #01b789;
@@ -230,14 +250,13 @@ main,header{
 
 /* comment section style start */
 .vision-of-future-comments{
-    background-image: url(/assets/card-icon.png),;
-    background-color:#ffffff;
-    background-size: contain;
-    background-position: top,left;
+    background-image: url(/assets/quote-bg.png);
+    background-repeat: no-repeat;
     margin-top: 32px;
     padding: 48px 24px;
     border-radius: 16px;
     box-shadow: 0px 2px 5px gray;
+    background-position: left 24px top 24px;
 
 }
 
@@ -264,6 +283,9 @@ main,header{
 /* openion serction start */
 .openion{
     margin-top: 80px;
+}
+.op-btn a{
+    color: black;
 }
 .openion div{
     padding: 24px;
@@ -387,7 +409,7 @@ main,header{
     margin: 0px 20px;
 }
 .donation-quantity :nth-child(3){
-    background-color: #97ffe5;
+    background-color: #C6E4D6;
 }
 
 .donation-quantity button{
