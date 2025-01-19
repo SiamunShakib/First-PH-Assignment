@@ -14,7 +14,15 @@ main,header{
     margin: auto;
 }
 
-/* nav section */
+@media screen and (max-width:576px){
+    main,header{
+        max-width: 100%;
+        align-items: center;
+        margin: auto;
+    }
+}
+
+/* nav section start */
 .nav{
     display: flex;
     justify-content: space-between;
@@ -44,8 +52,24 @@ button a{
 }
 
 
+@media screen and (max-width:576px) {
+    .nav{
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        width: 85%;
+    }
+    .nav button{
+        width: 30%;
+        margin:10px auto;
+        top: 10px;
+    }
+    
+}
 
-/* hero section style start */
+/* nav section end */
+
+
 
 .primery-heading{
     font-size: 40px;
@@ -71,6 +95,10 @@ button a{
     color: white;
 }
 
+
+
+
+/* hero section style start */
 .hero{
     margin-bottom: 80px;
     background-color: #C6E4D6;
@@ -94,6 +122,32 @@ button a{
     width: 380px;
 }
 
+
+
+@media screen and (max-width:576px) {
+    .hero{
+        flex-direction: column-reverse;
+        padding: 0px;
+        border-radius: 0px;
+        width: 85%;
+    }
+    .hero-text{
+        text-align: center;
+        padding:50px 0px;
+    }
+    .hero-text h1{
+        line-height: 35px;
+        margin: 20px 0px;
+    }
+    .hero-heading{
+        font-size: 30px;
+        margin: 0 20px;
+    }
+    .hero-image img{
+        width: 100%;
+        text-align: center;
+    }
+}
 
 
 
@@ -140,6 +194,21 @@ button a{
     opacity: 70%;
 }
 
+
+@media screen and (max-width:576px) {
+    .pillars{
+        padding: 0px 5%;
+    }
+    .piller-item{
+        flex-direction: column;
+    }
+    .piller-item div{
+        width: 85%;
+    }
+    .pillars >h1{
+        font-size: 30px;
+    }
+}
 
 
 /* pillars of bangladesh style end */
@@ -252,6 +321,21 @@ button a{
     transform: scale(1.05);
 }
 
+@media screen and (max-width:576px) {
+    .vision-of-future{
+        padding: 0px 5%;
+    }
+    .vision-of-future-item{
+        flex-direction: column;
+    }
+    .vision-of-future-item div{
+        width: 85%;
+    }
+    .vision-of-future-text{
+        width: 85%;
+    }
+}
+
 
 
 
@@ -286,7 +370,12 @@ button a{
     margin-bottom: 4px;
 }
 
-
+@media screen and (max-width:576px){
+    .vision-of-future-comments{
+        width: 75%;
+        margin: 0 5%;
+    }
+}
 /* comment section style end */
 
 
@@ -344,6 +433,12 @@ button a{
 }
 .openion-btn img{
     width: 15px;
+}
+
+@media screen and (max-width:576px){
+    .openion div{
+        width: 85%;
+    }
 }
 
 /* openion section end */
@@ -404,6 +499,22 @@ button a{
     opacity: 70%;
 }
 
+
+@media screen and (max-width:576px){
+    .news-text{
+        text-align: center;
+        width: 85%;
+        padding: 0 5%;
+    }
+    .news-item{
+        flex-direction: column;
+        width: 85%;
+        text-align: center;
+    }
+    .news-items :nth-child(2){
+        flex-direction: column-reverse;
+    }
+}
 /* news section end */
 
 
@@ -464,6 +575,27 @@ button a{
     text-align: center;
 }
 
+@media screen and (max-width:576px){
+    .donate{
+        width: 85%;
+        text-align: center;
+        padding: 30px 0px;
+    }
+    .donation-quantity{
+        gap: 5;
+    }
+    .donation-quantity button{
+        font-size: 15px;
+        padding: 20px;
+    }
+    .donate input{
+        width: 50%;
+        margin: 22px 0px;
+        font-size: 15px;
+        padding: 10px 0px;
+    }
+}
+
 /* donate style end */
 
 
@@ -511,6 +643,16 @@ button a{
     text-decoration: none;
     color: white;
 }
+
+@media screen and (max-width:576px){
+    .subscribe-box{
+        padding: 30px 0px;
+        width: 85%;
+    }
+    .email{
+        width: 50%;
+    }
+}
 /* subscribe style end */
 
 
@@ -550,3 +692,15 @@ hr{
 .footer ul li a{
     text-decoration: none;
 }
+
+
+@media screen and (max-width:576px){
+    .footer{
+        width: 85%;
+    }
+}
+
+
+
+
+
